@@ -347,6 +347,7 @@ namespace TownOfHost
                     title.fontWeight = TMPro.FontWeight.Thin;
                     title.enableAutoSizing = false;
                     title.autoSizeTextContainer = true;
+                    title.text = ModTranslation.getString(packageName);
                     offset -= headerSize * __instance.YOffset;
                     hatsTabCustomTexts.Add(title);
                 }
